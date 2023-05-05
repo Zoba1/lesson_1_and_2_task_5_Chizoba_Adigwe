@@ -41,6 +41,7 @@ q::before, q::after {
 	content: none;
 }
 
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -50,3 +51,35 @@ table {
 
 
 /* Write your css below here */
+.container {
+	/* background: red; */
+	height: 100vh;
+	padding: 20px 70px;
+	text-align: center;
+}
+
+img {
+	height: auto;
+	width: 500px;
+}
+
+video {
+	height:auto;
+	width: 500px;
+	display: block;
+	margin: 20px;
+}
+
+.table {
+	font-family: arial, sans-serif;
+	width: 60%;
+	margin: auto;
+  }
+  
+td, th {
+	border: 1px solid #ddd;
+	text-align: left;
+	padding: 8px;
+  }
+  
+  
